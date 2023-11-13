@@ -1,0 +1,29 @@
+.add-button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background-color: #6e6e6e;
+  box-sizing: border-box;
+  transition: 0.5s background-color ease-in-out;
+
+  & #union {
+    fill: #a9a9a9;
+    transition: 0.5s fill ease-in-out;
+  }
+
+  &:hover {
+    transition: 0.5s background-color ease-in-out;
+    background-color: #ababab;
+
+    & #union {
+      fill: #1f1f1f;
+      transition: 0.5s fill ease-in-out;
+    }
+  }
+}
