@@ -1,7 +1,7 @@
 import './style.scss';
 import { FC } from 'react';
 import { Product } from '@entities/product/ui/product-card-list';
-import { AddToCardButton } from '@shared/buttons/add-to-card-button';
+import { AddToCardButton } from '@shared/ui/buttons/add-to-card-button';
 
 interface ProductCardProps {
   product: Product;

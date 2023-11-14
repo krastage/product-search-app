@@ -1,8 +1,8 @@
 import { Search } from '@entities/search';
 import { ProductCardList } from '@entities/product/ui/product-card-list';
 import { useState } from 'react';
-import { Loader } from '@shared/loader';
-import { useFetchData } from '@src/features/fetch-data';
+import { Loader } from 'src/shared/ui/loader';
+import { useFetchData } from 'src/shared/lib/fetch-data';
 
 export const ProductListPage = () => {
   const [filteredItem, setFilteredItem] = useState('');

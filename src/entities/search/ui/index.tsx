@@ -1,6 +1,6 @@
 import './style.scss';
-import { SearchButton } from '@shared/buttons/search-button';
-import { Input } from '@shared/inputs';
+import { SearchButton } from '@shared/ui/buttons/search-button';
+import { Input } from 'src/shared/ui/inputs';
 import React from 'react';
 
 type SearchProps = {
