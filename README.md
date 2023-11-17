@@ -1,6 +1,6 @@
 # Search App
 
-### [Try App here](https://ivolga.vercel.app/home).
+### [Try App here](https://product-search-app-mocha.vercel.app/)
 
 ## Key features:
 
