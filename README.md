@@ -1,6 +1,6 @@
 # Search App
 
-### [Try App here](https://product-search-app-mocha.vercel.app/).
+### [Try App here](https://product-search-app-mocha.vercel.app/)
 
 ## Key features:
 
